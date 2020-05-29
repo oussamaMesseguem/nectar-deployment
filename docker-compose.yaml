@@ -1,0 +1,18 @@
+version: "3.3"
+
+services:
+  nectar:
+    image: nectar:latest
+    ports:
+      - 4200:80
+  
+  nectar-middleware:
+    image: nectar-middleware:latest
+    ports:
+      - 3000:3000
+
+  spacyapi:
+    image: jgontrum/spacyapi:all_v2
+    ports:
+      - 8080:80
+    restart: always
