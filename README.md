@@ -3,7 +3,7 @@
 Use docker-compose to deploy Nectar stack, composed of:
 * Nectar frontend
 * Nectar middleware: allows communication between front and rest services
-* Spacy api: do some of treatments needed y Nactar, such as: tokenisation and NER tagging..
+* Spacy api: do some of treatments needed by Nectar, such as: tokenisation and NER tagging..
 
 ## Further
 
